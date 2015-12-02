@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/go"
+    android:weightSum="1">
+
+
+
+         <ImageView
+                android:id="@+id/ImageView3_Left"
+             android:layout_marginTop="100dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                ></ImageView>
+
+
+
+    <ExpandableListView
+
+        android:id="@+id/lvExp"
+        android:layout_height="fill_parent"
+        android:foregroundGravity="center"
+
+
+        android:gravity="center_vertical"
+        android:layout_width="280dp"
+        android:layout_below="@+id/ImageView3_Left"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+
+    <TextView
+        android:id="@+id/txtLostpassword"
+        android:layout_width="wrap_content"
+        android:paddingLeft="50dp"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:autoLink="email"
+android:textStyle="bold"
+        android:textColor="#f73459"
+
+        android:padding="20px"
+        android:text="Forgot password"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ImageView3_Left"
+        android:layout_toEndOf="@+id/ImageView3_Left"
+        android:layout_marginBottom="65dp" />
+
+
+</RelativeLayout>
